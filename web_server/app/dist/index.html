@@ -1,17 +1,499 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
 <head>
+
     <meta charset="utf-8">
-    <title>flask-react</title>
-    <meta name="description" content="Basic web app using flask + react">
-    <meta name="author" content="Riken Mehta">
-    <meta name="viewport" content="width=device-width , initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>懂吃懂玩</title>
+    <meta name="description" content="迷因工程師陪你玩台北">
+    <meta name="author" content="想到明天要上班喔77777">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,300,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <h1>Welcome to full-stack tutorial using flask & react</h1>
-</body>
 
+    <section class="s-pageheader s-pageheader--home">
+        <div id="particles-js"></div>
+        
+        <header class="header">
+            <div class="header__content">
+
+                <div class="header__logo">
+                    <a class="logo" href="/">
+                        <img width="90" src="images/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <!-- <a class="header__search-trigger" href="#"></a>
+
+                <div class="header__search">
+
+                    <form role="search" method="get" class="header__search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                        </label>
+                        <input type="submit" class="search-submit" value="Search">
+                    </form>
+        
+                    <a href="#" title="Close Search" class="header__overlay-close">Close</a>
+
+                </div>  -->
+
+                <a class="header__toggle-menu" href="#" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <!-- <h2 class="header__nav-heading h6">Site Navigation</h2> -->
+
+                    <ul class="header__nav">
+                        <li><a href="#" title="">懂吃懂玩</a></li>
+                        <li><a href="#" title="">睡飽吃</a></li>
+                        <li><a href="#" title="">吃飽睡</a></li>
+                        <li><a class="btn" href="#" title="">我是按鈕</a></li>
+                    </ul>
+
+                    <a href="#" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav>
+            </div>
+        </header>
+
+
+
+
+        <div class="pageheader-content row">
+            <div class="col-full">
+
+                <div class="featured">
+
+                    <div class="featured__column featured__column--big">
+                        <div class="entry" style="background-image:url('https://img.4gamers.com.tw/ckfinder/image2/auto/2019-02/gosnapshotannounce-190212-233604.jpg');">
+
+                            <div class="entry__content">
+
+                                <h2><a href="#" title="">隨拍寶可夢美照！《Pokemon GO》新AR功能將登場</a></h2>
+                                <span class="entry__category">中正紀念堂</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="featured__column featured__column--small">
+
+                        <div class="entry" style="background-image:url('http://www.vrpinea.com/data/upload/ueditor/20190715/5d2c3287eed45.jpg');">
+
+                            <div class="entry__content">
+
+                                <h2><a href="#" title="">《Pokemon Go》全新AR 拍照功能「GO Snapshot」</a></h2>
+                                <span class="entry__category">鼎泰豐</span>
+
+                                <div class="entry__info">
+                                    <a href="#" class="entry__profile-pic">
+                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="entry" style="background-image:url('https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1024/https://www.arplanet.com.tw/wp-content/uploads/2019/04/1_0RtFp6lxeJWxcg5EE_wYCg-1024x576.jpeg');">
+
+                            <div class="entry__content">
+                                <h2><a href="#" title="">《Pokemon Go》將新增AR拍照功能幫寶可夢走到哪拍到哪</a></h2>
+                                <span class="entry__category">九份平溪</span>
+                                <div class="entry__info">
+                                    <a href="#" class="entry__profile-pic">
+                                        <img class="avatar" src="images/avatars/user-03.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="s-content">
+        <div class="container">
+
+                <div class="title text-center px-2 mb-5">
+                    <h2>相關文章</h2>
+                    <p>看月讓統主，倒金心下寫多力百？</p>
+                </div>
+            
+                    <div class="masonry-wrap">
+                        <div class="masonry">
+            
+                            <article class="masonry__brick" data-aos="fade-up">
+            
+                                <div class="entry__thumb">
+                                    <a href="#" class="entry__thumb-link">
+                                        <img src="https://s7.pimg.tw/album/anrine910070/element/245924207_1550840318-3307206506/zoomcrop/480x244.jpg" alt="">
+                                    </a>
+                                </div>
+            
+                                <div class="entry__text">
+                                    <div class="entry__header">
+            
+                                        <div class="entry__date">
+                                                2018.07.19 |
+                                            <a href="#" target="_blank">揪食。愛玩</a>
+                                        </div>
+                                        <h2 class="entry__title"><a href="#" target="_blank">小琉球，兩天一夜這樣玩。藍得太美！台灣版...</a></h2>
+            
+                                    </div>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-links">
+                                            <a href="#" target="_blank">新北市</a>
+                                            <a href="#" target="_blank">旅遊</a>
+                                            <a href="#" target="_blank">台北一日遊</a>
+                                        </span>
+                                    </div>
+                                </div>
+            
+                            </article>
+            
+                            <article class="masonry__brick" data-aos="fade-up">
+            
+                                    <div class="entry__thumb">
+                                        <a href="#" class="entry__thumb-link">
+                                            <img src="https://s7.pimg.tw/album/anrine910070/element/245924207_1550840318-3307206506/zoomcrop/480x244.jpg" alt="">
+                                        </a>
+                                    </div>
+                
+                                    <div class="entry__text">
+                                        <div class="entry__header">
+                
+                                            <div class="entry__date">
+                                                2019.07.08 |
+                                                <a href="#" target="_blank">波比看世界</a>
+                                            </div>
+                                            <h2 class="entry__title"><a href="#" target="_blank">【台北景點推薦】2019台北一日遊好玩行程＆最夯台...</a></h2>
+                
+                                        </div>
+                                        <div class="entry__meta">
+                                            <span class="entry__meta-links">
+                                                <a href="#" target="_blank">新北市</a>
+                                                <a href="#" target="_blank">旅遊</a>
+                                                <a href="#" target="_blank">台北一日遊</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                </article>
+            
+                            <article class="masonry__brick" data-aos="fade-up">
+            
+                                <div class="entry__thumb">
+                                    <a href="#" class="entry__thumb-link">
+                                        <img src="https://s6.pimg.tw/album/jason79101903/element/93161136_1489069273-368628219/zoomcrop/310x170.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+            
+                                <div class="entry__text">
+                                    <div class="entry__header">
+            
+                                        <div class="entry__date">
+                                            2017.03.09 |
+                                            <a href="#" target="_blank">那倆人✈玩樂人生</a>
+                                        </div>
+                                        <h2 class="entry__title"><a href="#" target="_blank">溪湖親子一日遊｜溪湖景點、溪湖美食...</a>
+                                        </h2>
+            
+                                    </div>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-links">
+                                            <a href="#" target="_blank">溪湖鎮</a>
+                                            <a href="#" target="_blank">溪湖</a>
+                                            <a href="#" target="_blank">一日遊</a>
+                                        </span>
+                                    </div>
+                                </div>
+            
+                            </article>
+                            <article class="masonry__brick" data-aos="fade-up">
+            
+                                <div class="entry__thumb">
+                                    <a href="#" class="entry__thumb-link">
+                                        <img src="https://s9.pimg.tw/album/may1215may/element/712811789_1530409630-1869971998/zoomcrop/310x170.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+            
+                                <div class="entry__text">
+                                    <div class="entry__header">
+            
+                                        <div class="entry__date">
+                                            2019.01.29 |
+                                            <a href="#" target="_blank"> Cindy的秘密花園</a>
+                                        </div>
+                                        <h2 class="entry__title">
+                                            <a href="#" target="_blank">【台北景點推薦】2019台北一日遊好玩行程＆最夯台...</a></h2>
+            
+                                    </div>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-links">
+                                            <a href="#" target="_blank">台中</a>
+                                            <a href="#" target="_blank">台中</a>
+                                            <a href="#" target="_blank">台北一日遊</a>
+                                        </span>
+                                    </div>
+                                </div>
+            
+                            </article>
+            
+                            <article class="masonry__brick" data-aos="fade-up">
+                                <div class="entry__thumb">
+                                    <a href="#" class="entry__thumb-link">
+                                        <img src="https://s5.pimg.tw/album/cindy6732/element/323118665_1539908776-3731197583/zoomcrop/480x244.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+            
+                                <div class="entry__text">
+                                    <div class="entry__header">
+            
+                                        <div class="entry__date">
+                                            2019.01.29 |
+                                            <a href="#" target="_blank"> Cindy的秘密花園</a>
+                                        </div>
+                                        <h2 class="entry__title">
+                                            <a href="#" target="_blank">【台北景點推薦】2019台北一日遊好玩行程＆最夯台...</a></h2>
+            
+                                    </div>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-links">
+                                            <a href="#" target="_blank">台中</a>
+                                            <a href="#" target="_blank">台中</a>
+                                            <a href="#" target="_blank">台北一日遊</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <article class="masonry__brick" data-aos="fade-up">
+                                <div class="entry__thumb">
+                                    <a href="#" class="entry__thumb-link">
+                                        <img src="https://s5.pimg.tw/album/ainycka0815/element/243143825_1543236515-3497404102/zoomcrop/310x170.jpg"
+                                            alt="">
+                                    </a>
+                                </div>
+            
+                                <div class="entry__text">
+                                    <div class="entry__header">
+            
+                                        <div class="entry__date">
+                                            2018.11.26 |
+                                            <a href="#" target="_blank">
+                                                我的旅圖中 </a>
+                                        </div>
+                                        <h2 class="entry__title"><a href="#" target="_blank">《北部景點推薦》口袋名單中的療癒系私房景點！IG...</a></h2>
+            
+                                    </div>
+                                    <div class="entry__meta">
+                                        <span class="entry__meta-links">
+                                            <a href="#" target="_blank">台中</a>
+                                            <a href="#" target="_blank">台中</a>
+                                            <a href="#" target="_blank">台北一日遊</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+            
+                        </div>
+                    </div>
+
+        </div>
+    </section>
+
+
+    <section class="s-extra">
+
+        <div class="container">
+
+            <!-- 如果定位在台北區域 就抓附近的飯店 還不確定作法-->
+
+            <div class="row">
+
+                    <div class="col-md-7 popular">
+                            <h3>熱門旅店</h3>
+            
+                            <div class="block-1-2 block-m-full popular__posts">
+                                <article class="col-block popular__post">
+                                    <a href="#" class="popular__thumb">
+                                        <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                    </a>
+                                    <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                    <section class="popular__meta">
+                                        <span class="popular__author">最低價格 NT$2,900 起</span>
+                                        <div class="popular__date">★4.5 </div>
+                                    </section>
+                                </article>
+                                <article class="col-block popular__post">
+                                    <a href="#" class="popular__thumb">
+                                        <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                    </a>
+                                    <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                    <section class="popular__meta">
+                                        <span class="popular__author">最低價格 NT$2,900 起</span>
+                                        <div class="popular__date">★4.5 </div>
+                                    </section>
+                                </article>
+                                <article class="col-block popular__post">
+                                    <a href="#" class="popular__thumb">
+                                        <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                    </a>
+                                    <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                    <section class="popular__meta">
+                                        <span class="popular__author">最低價格 NT$2,900 起</span>
+                                        <div class="popular__date">★4.5 </div>
+                                    </section>
+                                </article>
+                                <article class="col-block popular__post">
+                                    <a href="#" class="popular__thumb">
+                                        <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                    </a>
+                                    <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                    <section class="popular__meta">
+                                        <span class="popular__author">最低價格 NT$2,900 起</span>
+                                        <div class="popular__date">★4.5 </div>
+                                    </section>
+                                </article>
+                                <article class="col-block popular__post">
+                                    <a href="#" class="popular__thumb">
+                                        <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                    </a>
+                                    <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                    <section class="popular__meta">
+                                        <span class="popular__author">最低價格 NT$2,900 起</span>
+                                        <div class="popular__date">★4.5 </div>
+                                    </section>
+                                </article>
+                                <article class="col-block popular__post">
+                                    <a href="#" class="popular__thumb">
+                                        <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                    </a>
+                                    <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                    <section class="popular__meta">
+                                        <span class="popular__author">最低價格 NT$2,900 起</span>
+                                        <div class="popular__date">★4.5 </div>
+                                    </section>
+                                </article>
+            
+            
+                            </div>
+            
+                        </div>
+            
+                        <div class="col-md-5 about">
+                            <h3>最新文章</h3>
+                            <article class="col-block popular__post">
+                                <a href="#" class="popular__thumb">
+                                    <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                </a>
+                                <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                <section class="popular__meta">
+                                    <span class="popular__author">最低價格 NT$2,900 起</span>
+                                    <div class="popular__date">★4.5 </div>
+                                </section>
+                            </article>
+                            <article class="col-block popular__post">
+                                <a href="#" class="popular__thumb">
+                                    <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                </a>
+                                <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                <section class="popular__meta">
+                                    <span class="popular__author">最低價格 NT$2,900 起</span>
+                                    <div class="popular__date">★4.5 </div>
+                                </section>
+                            </article>
+                            <article class="col-block popular__post">
+                                <a href="#" class="popular__thumb">
+                                    <img src="https://edge.media.datahc.com/HI368748745.jpg" alt="">
+                                </a>
+                                <h5><a href="#" target="_blank">台北凱撒大飯店</a></h5>
+                                <section class="popular__meta">
+                                    <span class="popular__author">最低價格 NT$2,900 起</span>
+                                    <div class="popular__date">★4.5 </div>
+                                </section>
+                            </article>
+            
+                        </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        <a href="/" target="_blank">
+                            <img src="images/logo_02.svg" class="img-fluid">
+                        </a>
+                    </p>
+                    <p class="mb-0">們上至變信來最，的得了善部非時出子一力自愛樂小感自客陸直道星自臺竟求：因我術害。草那育教而世時大水事死公生夫即來新靜全一創是……有不主增有哥不……它長甚道道，老境加才，排場族解：活結收好給演巴跑活資好運：用子的始坐見獨一一世。個特語演，實門車他於眾分打麼之投家光用那知？</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <ul class="list">
+                            <li>主辦單位 <img src="images/sp_logo01.png" alt=""></li>
+                            <li>協力廠商 <img src="images/sp_logo02.png" alt=""></li>
+                            <!-- <li><img src="https://cdn.wish-festival.com/img/sponsor/love2fruit.png" alt=""></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center">
+                Copyright © 2019 想到明天要上班喔77777 All Right Reserverd.
+            </div>
+ 
+        </div>
+
+    </footer>
+
+    <div id="preloader">
+        <div id="loader">
+            <!-- <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> -->
+            <div class="logo animated rubberBand">
+                <img width="200" src="images/logo_02.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main-1.js"></script>
+
+</body>
 </html>
